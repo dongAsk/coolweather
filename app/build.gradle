@@ -19,6 +19,11 @@ android {
 }
 
 dependencies {
+    compile 'org.litepal.android:core:1.3.2'
+    compile 'com.squareup.okhttp3:okhttp:3.11.0'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.android.support:support-annotations:27.1.1'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     testImplementation 'junit:junit:4.12'
